@@ -1,6 +1,6 @@
 # Testapp :sparkles::sparkles::sparkles:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4. together with [Django](https://docs.djangoproject.com/en/2.0/) version 2.1
+
 
 
 ## versions
@@ -8,6 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This project is buit on:
 
 >[Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
+
 >[Django](https://docs.djangoproject.com/en/2.0/) version 2.1
 
 ## setup/installation
@@ -73,6 +74,6 @@ The app will automatically reload if you change any of the source files.
 ## API ENDPOINTS
 
 |    Endpoint              |       Functionality                  |
-|---------------------------|-------------------------------------|
+|--------------------------|--------------------------------------|
 |                          |                                      |
 |                          |                                      |
