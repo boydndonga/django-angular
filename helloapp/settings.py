@@ -26,7 +26,7 @@ SECRET_KEY = '$k_*o$4%du&&s_a4s_5%xvj+d2(1+6@h7z=mg7o8ynx0t)5)s6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hello-djangular.herokuapp.com']
 
 
 # Application definition
