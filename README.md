@@ -1,10 +1,10 @@
 # Testapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4. together with [Django](https://docs.djangoproject.com/en/2.0/) version 2.1
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `python3.6 manage.py runserver` for a dev server. Navigate to `http://localhost:8000/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
