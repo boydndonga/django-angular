@@ -14,10 +14,10 @@ import os
 import dj_database_url
 import django_heroku
 from django.core.wsgi import get_wsgi_application
-from whitenoise.django import DjangoWhiteNoise
+# from whitenoise.django import 
 
-application = get_wsgi_application()
-application = DjangoWhiteNoise(application)
+# application = get_wsgi_application()
+# application = DjangoWhiteNoise(application)
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -132,7 +132,7 @@ STATIC_URL = '/static/'
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, 'static')
+    os.path.join(PROJECT_ROOT, 'static'),
 )
 # Simplified static file serving.
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
